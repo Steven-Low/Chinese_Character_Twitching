@@ -20,8 +20,6 @@ func main() {
 	fileBuffer.ReadFrom(file)
 	fileString := fileBuffer.String()
 
-	fmt.Print(fileString)
-
 	// (``) for mulitiple line strings
 	input_string := fileString
 	old1 := "李清雨"
